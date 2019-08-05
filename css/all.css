@@ -1,0 +1,182 @@
+.container {
+    max-width: 1280px;
+    position: relative;
+}
+
+.bg-pink {
+    background-color: #FFEDF7;
+
+}
+
+.bg-blue {
+    background-color: #003164;
+}
+
+.text-blue {
+    color: #003164;
+    font-weight: bold;
+}
+
+.left-side {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.btn-pink {
+    color: #FF4384;
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: #FF4384;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.mb-7 {
+    margin-bottom: 140px;
+}
+
+.todo-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #003164;
+    cursor: pointer;
+}
+
+.todo-box:hover {
+    background-color: #003164;
+}
+
+.todo-small-box {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #FF4384;
+    cursor: pointer;
+}
+
+.todo-small-box:hover {
+    background-color: #FF4384;
+}
+
+.text-blue {
+    color: #003164;
+    font-weight: bold;
+}
+
+.todo-time {
+    color: #FF4384;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 176px;
+}
+
+.todo-clock {
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    border: 3px solid #FF4384;
+    position: absolute;
+    top: 200px;
+    left: 590px;
+    z-index: 1;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #FF4384;
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.todo-play-btn {
+    font-size: 26px;
+    color: #FF4384;
+    background-color: white;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.todo-play-btn:hover {
+    color: #FF4384;
+}
+
+.reset-btn {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    padding: 0px;
+}
+
+.todo-list-box {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #003164;
+    cursor: pointer;
+}
+
+.todo-list-box:hover {
+    background-color: #003164;
+}
+
+.todo-list-box-play {
+    color: #003164;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #003164;
+    font-size: 10px;
+}
+
+.todo-list-box-play:hover {
+    cursor: pointer;
+}
+
+.todo-list {
+    border-bottom: 1px solid #778a9e;
+}
+
+.mb-6 {
+    margin-bottom: 78px;
+}
+
+/*right side*/
+
+.btn-bar {
+    width: 36px;
+    height: 36px;
+    color: white;
+    font-size: 38px;
+}
+
+.btn-bar:hover {
+    color: #FF4384;
+}
+
+.mt-7 {
+    margin-top: 58px;
+}
+
+.right-side-text {
+    color: white;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    margin-right: 0;
+    position: absolute;
+    top: 685px;
+    right: -1px;
+}
+
+.right-side {
+    position: relative;
+}
